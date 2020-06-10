@@ -1,0 +1,46 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Omkar's Calculator</title>
+
+		<link rel="stylesheet" type="text/css" href="calc.css" />
+	</head>
+
+	<body>
+		<div class="calc">
+
+			<div class="title"><h3>Calculator</h3></div>
+			<div class="main-box">
+			<input type="text" id="txt"> 
+		 
+		</br>
+			<input type="button" value="7" class="butt" id="seven" onclick="cal(7);" /> 
+			<input type="button" value="8" class="butt" id="eight" onclick="cal(8);" /> 
+			<input type="button" value="9" class="butt" id="nine" onclick="cal(9);" /> 
+			<input type="button" value="+" class="butt" id="add" onclick="cal('+');" />
+			
+		</br>	
+			<input type="button" value="4" class="butt" id="four" onclick="cal(4);" /> 
+			<input type="button" value="5" class="butt" id="five" onclick="cal(5);" /> 
+			<input type="button" value="6" class="butt" id="six" onclick="cal(6);" /> 
+			<input type="button" value="-" class="butt" id="subtract" onclick="cal('-');" /> 
+			
+		 			
+		</br>
+			<input type="button" value="1" class="butt" id="one" onclick="cal(1);" /> 
+			<input type="button" value="2" class="butt" id="two" onclick="cal(2);" /> 
+			<input type="button" value="3" class="butt" id="three" onclick="cal(3);" /> 
+			<input type="button" value="*" class="butt" id="multiply" onclick="cal('*');" /> 
+			
+		</br>
+			<input type="button" value="C" class="butt" id="c" onclick="clr();"/>
+			<input type="button" value="0" class="butt" id="zero" onclick="cal(0);" /> 
+			<input type="button" value="=" class="butt" id="equal" onclick="result();" />
+			<input type="button" value="/" class="butt" id="divide" onclick="cal('/');" /> 
+			
+		</div>
+	</div>
+
+	<script src="calc.js"></script>
+	</body>
+</html>

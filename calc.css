@@ -1,0 +1,51 @@
+body{
+background-color: black;
+}
+
+.calc{
+    background-color: red;
+    float: left;
+    margin-top:10%;
+    margin-left:35%;
+    border:3px solid black;
+    
+    
+    
+}
+.title{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-block-end: 3px solid black;
+    font-family: cursive;   
+}
+
+.main-box{
+    padding: 30px;
+}
+.butt{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 5px 10px;
+    border-radius: 0%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.butt:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#txt{
+    padding: 0 5px;
+    width:75%;
+    height: 30px;
+    margin: 5% 10%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
